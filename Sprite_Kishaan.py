@@ -170,7 +170,7 @@ class Sprite(object):
         a = other.xPos - self.xPos
         b = other.yPos - self.yPos
         
-        # Rearrange theorem to solve for c. sqrt = 
+        # Rearrange theorem to solve for c.
         c = sqrt(a**2 + b**2)
         
         
